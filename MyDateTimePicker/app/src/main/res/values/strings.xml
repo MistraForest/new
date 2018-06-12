@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My DateTimePicker</string>
+    <string name="my_date">select date</string>
+    <string name="my_time">select time</string>
+    <string name="day_month_year">EE dd.MM.yyyy</string>
+    <string name="hours_minutes">HH:mm</string>
+</resources>

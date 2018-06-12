@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@mipmap/cailloux"
+        tools:context="com.aufgabe5.views.uebung4.pogba.uebung4_views_todo_aufgabe5.Login_Activity">
+   <ProgressBar
+         android:id="@+id/progressbar"
+         android:max="100"
+         android:minHeight="50sp"
+         android:indeterminate="false"
+         style="@android:style/Widget.ProgressBar.Large"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/error_email"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/red"
+            android:background="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <EditText
+            android:id="@+id/email"
+            android:layout_marginBottom="5dp"
+            android:background="@color/white"
+            android:textSize="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:hint="Email"
+            android:imeOptions="actionNext"
+            android:maxLines="1"
+            android:inputType="textEmailAddress"/>
+    <TextView
+            android:id="@+id/error_pwd"
+            android:textColor="@color/red"
+            android:background="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <EditText
+            android:id="@+id/password"
+            android:layout_marginBottom="5dp"
+            android:background="@color/white"
+            android:textSize="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:hint="Password"
+            android:imeOptions="actionDone"
+            android:maxLines="1"
+            android:layout_below="@id/email"
+            android:maxLength="6"
+            android:inputType="numberPassword"/>
+
+    <Button
+            android:id="@+id/login"
+            android:background="@color/grey"
+            android:textSize="25sp"
+            android:layout_marginTop="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="Login"/>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="remoteBackend:war exploded">
+    <output-path>$PROJECT_DIR$/build/classes/artifacts/remoteBackend_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="remoteBackend/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="remoteBackend" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

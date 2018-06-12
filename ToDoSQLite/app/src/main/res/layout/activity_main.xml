@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.getingstarted.pogba.todosqlite.MainActivity"
+android:background="#184341">
+                <!--android:background="#184341"-->
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="50dp" android:id="@+id/name_id"
+            android:hint="@string/todo_name_hint"
+            android:maxLines="1"
+            android:inputType="text"
+            android:textAlignment="gravity"
+            android:layout_below="@+id/title_id" android:layout_alignLeft="@+id/date_id"
+            android:layout_alignStart="@+id/date_id" android:imeOptions="actionNext"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:ems="10"
+            android:id="@+id/description_id"
+            android:hint="@string/todo_description_hint"
+            android:maxLines="3"
+            android:isScrollContainer="false" android:keepScreenOn="false"
+            android:layout_marginTop="12dp"
+            android:imeOptions="actionDone" android:layout_below="@+id/name_id" android:layout_alignLeft="@+id/name_id"
+            android:layout_alignStart="@+id/name_id"/>
+    <Switch
+            android:text="@string/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp" android:id="@+id/status_id" android:layout_below="@+id/description_id"
+            android:layout_alignLeft="@+id/description_id" android:layout_alignStart="@+id/description_id"
+            android:textOff="@string/no_switch" android:textOn="@string/yes_switch"/>
+    <CheckBox
+            android:text="@string/favourite_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/status_id"
+            android:layout_alignRight="@+id/description_id"
+            android:layout_alignEnd="@+id/description_id"
+            android:id="@+id/favourite_check"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:layout_marginTop="15dp"
+            android:id="@+id/date_id"
+            android:hint="@string/deadline_date"
+            android:layout_below="@+id/favourite_check"
+            android:layout_alignLeft="@+id/time_id"
+            android:layout_alignStart="@+id/time_id"
+            android:imeOptions="actionNext"
+            android:focusable="false"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="time"
+            android:ems="10"
+            android:layout_marginTop="14dp"
+            android:id="@+id/time_id"
+            android:hint="@string/deadline_hh_mn"
+            android:imeOptions="actionDone"
+            android:layout_below="@+id/date_id"
+            android:layout_centerHorizontal="true"
+            android:focusable="false"/>
+    <Button
+            android:text="@string/button_put"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/time_id" android:layout_alignStart="@+id/time_id"
+            android:layout_marginBottom="36dp" android:id="@+id/button_put_id" android:layout_marginTop="36dp"/>
+    <Button
+            android:text="@string/button_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_count_id" android:layout_alignBaseline="@+id/button_put_id"
+            android:layout_alignBottom="@+id/button_put_id" android:layout_alignRight="@+id/time_id"
+            android:layout_alignEnd="@+id/time_id"/>
+    <TextView
+            android:text="@string/title_todo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_alignParentTop="true"
+            android:layout_marginTop="13dp" android:id="@+id/title_id" android:layout_alignRight="@+id/name_id"
+            android:layout_alignEnd="@+id/name_id" android:layout_alignLeft="@+id/name_id"
+            android:layout_alignStart="@+id/name_id"
+            android:textColor="#111111" android:textSize="25sp"/>
+</RelativeLayout>

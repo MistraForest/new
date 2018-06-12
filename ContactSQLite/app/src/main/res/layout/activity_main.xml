@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.getingstarted.pogba.contactsqlite.MainActivity">
+
+    <Button
+            android:text="@string/button_put"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/button_put_id" tools:layout_editor_absoluteY="235dp"
+            tools:layout_editor_absoluteX="154dp"
+            android:layout_marginLeft="43dp" android:layout_marginStart="43dp"
+            android:layout_alignBaseline="@+id/button_count_id" android:layout_alignBottom="@+id/button_count_id"
+            android:layout_alignParentLeft="true" android:layout_alignParentStart="true"/>
+    <Button
+            android:text="@string/button_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_count_id"
+            android:layout_marginBottom="197dp"
+            android:layout_alignParentBottom="true" android:layout_toRightOf="@+id/button_put_id"
+            android:layout_toEndOf="@+id/button_put_id" android:layout_marginLeft="23dp"
+            android:layout_marginStart="23dp"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="12"
+            android:layout_marginBottom="71dp"
+            android:id="@+id/phone_no_id" android:layout_above="@+id/button_put_id"
+            android:layout_alignLeft="@+id/button_put_id" android:layout_alignStart="@+id/button_put_id"
+            android:hint="@string/phone_number"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="12"
+            android:layout_marginBottom="30dp" android:id="@+id/name_id"
+            android:hint="@string/conctact_name" android:layout_above="@+id/phone_no_id"
+            android:layout_alignLeft="@+id/phone_no_id" android:layout_alignStart="@+id/phone_no_id"/>
+    <Button
+            android:text="@string/button_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_below="@+id/phone_no_id"
+            android:layout_toRightOf="@+id/button_count_id" android:layout_toEndOf="@+id/button_count_id"
+            android:layout_marginLeft="23dp" android:layout_marginStart="23dp" android:id="@+id/button_delete_id"/>
+    <Button
+            android:text="@string/button_list_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_list_all_id"
+            android:ems="15"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true" android:layout_alignParentStart="true"
+            android:layout_marginBottom="125dp" android:gravity="center_horizontal|center"
+            android:layout_marginStart="30dp" android:layout_marginLeft="30dp"/>
+</RelativeLayout>

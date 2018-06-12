@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ToDoSQLite</string>
+
+    <string name="todo_name_hint">Todo name</string>
+    <string name="todo_description_hint">ToDo descriptions</string>
+    <string name="status">Is done </string>
+    <string name="favourite_status">Is Favourite</string>
+    <string name="deadline_date">select date</string>
+    <string name="deadline_hh_mn">select time</string>
+    <string name="button_put">Put</string>
+    <string name="button_count">Count</string>
+    <string name="title_todo">Todo Handling</string>
+    <string name="no_switch">No</string>
+    <string name="yes_switch">Yes</string>
+    <string name="day_month_year">dd.MM.yyyy</string>
+    <string name="hours_minutes">HH:mm </string>
+
+</resources>

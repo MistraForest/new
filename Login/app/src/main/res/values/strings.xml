@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="text_message">Please Login</string>
+    <string name="sign_in_text">Sign in</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">password</string>
+</resources>

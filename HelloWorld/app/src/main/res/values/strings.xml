@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HelloWorld</string>
+    <string name="tapme">Tap me!</string>
+    <string name="thedoualaboy">TheDoualaBoy</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="setting_greeting">Wellcome to the setting page</string>
+    <string name="action_settings">Settings</string>
+</resources>

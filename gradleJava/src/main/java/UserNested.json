@@ -1,0 +1,12 @@
+{
+  "name" : "Forest",
+  "email" : "me@forest.com",
+  "age" : 31,
+  "isDevelopper" : true,
+  "userAdresse" : {
+    "street" : "Kurfürstenstrasse",
+    "houseNumber" : "148B",
+    "city" : "Berlin",
+    "country" : "Germany"
+  }
+}

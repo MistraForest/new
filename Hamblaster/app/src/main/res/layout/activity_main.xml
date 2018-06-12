@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.getingstarted.pogba.hamblaster.MainActivity">
+
+    <TextView
+            android:text="@string/sign_in_title"
+            tools:layout_editor_absoluteY="45dp"
+            tools:layout_editor_absoluteX="45dp"
+            android:id="@+id/textView"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            tools:layout_editor_absoluteY="89dp"
+            tools:layout_editor_absoluteX="85dp"
+            android:id="@+id/editText"
+            android:layout_marginTop="56dp"
+            android:layout_below="@+d/textView"
+            android:layout_centerHorizontal="true"
+            android:width="320dp"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/editText2"
+            tools:layout_editor_absoluteY="165dp"
+            tools:layout_editor_absoluteX="85dp"
+            android:layout_marginTop="43dp"
+            android:width="320dp" android:layout_below="@+id/editText" android:layout_alignLeft="@+id/editText"
+            android:layout_alignStart="@+id/editText"/>
+    <Button
+            android:text="@string/sign_in_buttonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            tools:layout_editor_absoluteY="231dp"
+            tools:layout_editor_absoluteX="157dp"
+            android:layout_marginTop="32dp" android:layout_below="@+id/editText2"
+            android:layout_centerHorizontal="true"/>
+</RelativeLayout>

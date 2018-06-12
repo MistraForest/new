@@ -1,0 +1,66 @@
+<resources>
+	<string name="app_name">My Todolist</string>
+   <string name="no_switch">no</string>
+	<string name="yes_switch">yes</string>
+	<string name="status">Is Done</string>
+   <string name="invalid_pwd">Please enter exactly 6 numbers for password</string>
+	<string name="invalid_mail">Please enter a valid email addresse: sample@example.com</string>
+   <string name="permission_denied">Permission denied! Check your email or password</string>
+
+   <string-array name="todos">
+		<item>todo1</item>
+		<item>todo2</item>
+		<item>todo3</item>
+		<item>todo4</item>
+		<item>todo5</item>
+		<item>todo6</item>
+		<item>todo7</item>
+		<item>todo8</item>
+		<item>todo9</item>
+	</string-array>
+
+	<string-array name="names">
+		<item>Football</item>
+		<item>Volleyball</item>
+		<item>Handball</item>
+		<item>Tennis</item>
+		<item>Natation</item>
+		<item>Marathon</item>
+		<item>Sky</item>
+		<item>Rugby</item>
+		<item>Soccer</item>
+	</string-array>
+
+	<string-array name="descriptions">
+		<item>Play with 11 peoples in team</item>
+		<item>highest 6 players</item>
+		<item>also 6 peoples, with hand and small field</item>
+		<item>2 players, 1 per team</item>
+		<item>Swimming in water</item>
+		<item>Running long distance</item>
+		<item>on snow</item>
+		<item>robust game with hand and foot</item>
+		<item>an kind ao football</item>
+	</string-array>
+
+	<bool name="is_done">true</bool>
+	<bool name="not_done">false</bool>
+
+	<bool name="is_favourite">	true</bool>
+	<bool name="not_favourite">	true</bool>
+
+	<integer-array  name="date">
+		<item>789654</item>
+		<item>123654</item>
+		<item>789623</item>
+		<item>236548</item>
+		<item>456883</item>
+		<item>289748</item>
+		<item>988766</item>
+		<item>816468</item>
+		<item>547515</item>
+	</integer-array>
+	
+
+
+</resources>

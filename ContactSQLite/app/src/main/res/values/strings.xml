@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ContactSQLite</string>
+    <string name="button_put">PUT</string>
+    <string name="button_count">COUNT</string>
+    <string name="conctact_name">Conctact name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="button_delete">DELETE</string>
+    <string name="button_list_all">LIST ALL</string>
+</resources>

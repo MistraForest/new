@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		tools:context="com.getingstarted.pogba.myu4_views.Layouts.FrameLayout">
+
+	<ImageView
+			android:contentDescription="Kreis"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:minHeight="150dp"
+			android:minWidth="150dp"
+			android:src="@drawable/oval" />
+
+	<ImageView
+			android:contentDescription="@string/rechteck"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:minHeight="100dp"
+			android:minWidth="100dp"
+			android:src="@drawable/rectangle" />
+
+	<ImageView
+			android:contentDescription="Rundrechteck"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:minHeight="75dp"
+			android:minWidth="75dp"
+			android:src="@drawable/roundedrectangle" />
+
+	<Button
+			android:id="@+id/ok"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:text="@string/ok" />
+
+</FrameLayout>

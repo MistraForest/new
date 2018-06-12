@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		tools:context="com.getingstarted.pogba.myu4_views.Layouts.TableLayout">
+
+		<TableRow>
+			<Button android:text="@string/cancel"/>
+
+			<Button android:id="@+id/ok"
+			android:text="@string/ok"/>
+
+			<Button android:text="@string/back"/>
+		</TableRow>
+
+
+		<TableRow>
+			<Button android:text="@string/back"/>
+
+			<Button android:text="@string/cancel"/>
+
+			<Button android:text="@string/ok"/>
+		</TableRow>
+
+
+		<TableRow>
+			<Button android:layout_span="3"
+					android:text="@string/delete_all"/>
+		</TableRow>
+
+
+		<TableRow>
+			<Button android:layout_column="1"
+			        android:text="@string/undo"/>
+		</TableRow>
+
+
+
+
+
+
+
+
+
+
+</TableLayout>

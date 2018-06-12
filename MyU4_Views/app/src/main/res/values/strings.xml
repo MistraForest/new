@@ -1,0 +1,10 @@
+<resources>
+	<string name="app_name">MyU4_Views</string>
+	<string name="ok">OK</string>
+	<string name="back">Back</string>
+	<string name="cancel">Cancel</string>
+	<string name="delete_all">Delete All</string>
+	<string name="undo">Undo</string>
+	<string name="rechteck">Rechteck</string>
+
+</resources>

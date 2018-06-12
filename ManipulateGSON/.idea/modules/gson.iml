@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="gson" external.linked.project.path="$MODULE_DIR$/../../gsonDependencies" external.root.project.path="$MODULE_DIR$/../../gsonDependencies" external.system.id="GRADLE" external.system.module.group="mistra_gson" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../gsonDependencies">
+      <excludeFolder url="file://$MODULE_DIR$/../../gsonDependencies/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../gsonDependencies/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../gsonDependencies/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

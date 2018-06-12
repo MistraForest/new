@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My GridLayaout</string>
+    <string name="button_center">Center</string>
+    <string name="button_right">Right</string>
+    <string name="button_left">Left</string>
+    <string name="button_bottom">Bottom</string>
+</resources>

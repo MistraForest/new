@@ -1,0 +1,9 @@
+<resources>
+	<string name="app_name">MyUe06App</string>
+	<string name="add_item">Add item</string>
+	<string name="loeschen">Löschen</string>
+	<string name="clear">Clear</string>
+	<string name="speichern">Speichern</string>
+	<string name="details_description">details_description</string>
+	<string name="details_title">details_title</string>
+</resources>

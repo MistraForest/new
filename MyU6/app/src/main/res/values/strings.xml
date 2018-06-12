@@ -1,0 +1,10 @@
+<resources>
+	<string name="app_name">MyU6</string>
+	<string name="itemdetails_title">Title</string>
+	<string name="itemdetails_description">Beschreibung</string>
+	<string name="loeschen">Löschen</string>
+	<string name="speichern">Speichern</string>
+	<string name="hinzufuegen">Hinzufügen...</string>
+	<string name="list_button">ListAnsicht</string>
+	<string name="detail_button">Detailsicht</string>
+</resources>

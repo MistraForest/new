@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ManipulateGSON.iml" filepath="$PROJECT_DIR$/ManipulateGSON.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gson.iml" filepath="$PROJECT_DIR$/.idea/modules/gson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gson_main.iml" filepath="$PROJECT_DIR$/.idea/modules/gson_main.iml" group="gson" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gson_test.iml" filepath="$PROJECT_DIR$/.idea/modules/gson_test.iml" group="gson" />
+    </modules>
+  </component>
+</project>

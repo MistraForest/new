@@ -1,0 +1,61 @@
+<resources>
+
+	<string name="app_name">MyMAuSUeb06</string>
+
+
+	<string name="preferences_name">Preferences</string>
+	<string name="properties_name">Properties</string>
+	<string name="xmlfile_name">XML File</string>
+	<string name="sqlite_name">SQLite</string>
+	<string name="remotebackend_name">Remote Backend</string>
+
+	<!--  the labels used for the details view -->
+	<string name="itemdetails_description">Beschreibung</string>
+	<string name="itemdetails_name">Name</string>
+
+	<!-- the main menu items -->
+	<string-array name="main_menu">
+		<item>Preferences</item>
+		<item>Properties File</item>
+		<!--  <item>XML File</item> -->
+		<item>SQLite DB</item>
+		<item>SQLite DB Cursor</item>
+		<item>Remote Backend</item>
+		<item>Resources</item>
+	</string-array>
+
+	<!--  the activities that will be called on menu item selection -->
+	<string-array name="main_menu_activities">
+		<item>ItemDetailsActivity</item>
+		<item>ItemDetailsActivity</item>
+		<!--  <item>ItemListActivity</item> -->
+		<item>ItemListActivity</item>
+		<item>ItemListActivity</item>
+		<item>ItemListActivity</item>
+		<item>ItemListActivity</item>
+	</string-array>
+
+	<!--  the accessors that will be used on menu item selection -->
+	<string-array name="main_menu_accessors">
+		<item>PreferencesDataItemAccessor</item>
+		<item>PropertiesDataItemAccessor</item>
+		<!-- <item>XMLFileDataItemListAccessor</item>  -->
+		<item>SQLiteDataItemListAccessor</item>
+		<item>CursorAdapterDataItemListAccessor</item>
+		<item>RemoteBackendDataItemListAccessor</item>
+		<item>ResourcesDataItemListAccessor</item>
+	</string-array>
+
+	<!--  the item list as resources -->
+	<string-array name="item_list">
+		<item>Item 1</item>
+		<item>Item 2</item>
+		<item>Item 3</item>
+	</string-array>
+
+
+	<string name="hinzufuegen">Hinzufügen...</string>
+	<string name="loeschen">Löschen</string>
+	<string name="speichern">Speichern</string>
+
+</resources>
